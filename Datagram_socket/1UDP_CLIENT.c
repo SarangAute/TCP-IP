@@ -9,7 +9,7 @@
 
 int main(int argc, char* argv[]){
     if(argc!=2){
-        printf("USAGE: ./a.out port_num\n")
+        printf("USAGE: ./a.out port_num\n");
         return 0;
     }
 
