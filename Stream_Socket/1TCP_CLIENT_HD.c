@@ -30,7 +30,7 @@ int main(int argc, char* argv[]){
 	}
 	printf("SOCKET CREATED SUCCESSFULLY....\n");
 	
-	int port=gen_num(argv[1]);
+	int port=gen_num(argv[1]);		//name of server getting converted into port number 
 	srv.sin_family=AF_INET;
 	srv.sin_port=htons(port);
 	srv.sin_addr.s_addr=inet_addr("127.0.0.1");
